@@ -1,0 +1,15 @@
+#serviceImg1{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQQEpmdo7C8pdgODvgSTTQsBQwIQ41ixXh9Q&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:215px;
+}
+
+#serviceImg2{
+    background: url(https://apfmnet.org/wp-content/uploads/child-and-dad-StocksnapCCO-300x200.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:215px;
+}

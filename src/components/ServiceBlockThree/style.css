@@ -1,0 +1,12 @@
+#serviceImg3{
+    background: url(https://www.jfinklawadr.com/wp-content/uploads/2013/06/Business-Partner-Mediation.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:215px;
+}
+#otherAreas{
+    height:215px;
+    overflow:scroll;
+    overflow-x:hidden;
+}

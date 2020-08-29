@@ -1,0 +1,17 @@
+#blocks {
+text-align: center;
+}
+
+#mediation{
+    height:215px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+#img{
+    background: url(https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/888/cached.offlinehbpl.hbpl.co.uk/news/ORP/boardroom_large-20191127063116978.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:215px;
+}

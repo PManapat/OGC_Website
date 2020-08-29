@@ -1,0 +1,15 @@
+#njapm{
+    background: url(/images/njapm.png);
+background-size: contain;
+background-repeat: no-repeat;
+justify-content: center;
+text-align: center;
+margin-top: 100px;
+margin-left: 100px;
+}
+
+#medRole{
+    height:215px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
