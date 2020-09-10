@@ -25,7 +25,7 @@ export default function () {
             <br />
             <br />
             <p>
-              For those suffering through financial hardship, please contact us to discuss pro bono publico. Applicable to those who may qualify,
+              For those suffering from financial hardship, please contact us to discuss pro bono publico. Applicable to those who may qualify,
             </p>
           </Jumbotron>
         </Col>
