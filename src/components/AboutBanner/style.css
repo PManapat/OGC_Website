@@ -1,8 +1,8 @@
-#bio {
+/* #bio {
   height: 300px;
   overflow: scroll;
   overflow-x: hidden;
-}
+} */
 
 #blocks {
   text-align: center;
@@ -10,9 +10,10 @@
 
 #profilePic {
   background: url(https://njapm.org/wp-content/uploads/2020/06/mitsu-profile-2020-338x500.jpg);
-  height: 300px;
+  background-size: contain;
+  height: 600px;
   margin-left: 40px;
   background-repeat: no-repeat;
   position: center;
-  background-size: cover;
+  margin-top: 80px
 }

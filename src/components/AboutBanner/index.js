@@ -5,7 +5,7 @@ import './style.css';
 export default function () {
   return (
     <div>
-  <Card.Header as="h5">ABOUT</Card.Header>
+  <Card.Header as="h2">ABOUT</Card.Header>
   <Row id="blocks" className='mr-1 pb-2'>
         <Col>
         <Jumbotron id='profilePic'>

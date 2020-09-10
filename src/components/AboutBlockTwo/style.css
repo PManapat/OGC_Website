@@ -1,15 +1,16 @@
 #njapm{
-    background: url(/images/njapm.png);
+    background: url(https://njapm.org/wp-content/uploads/2018/09/logo.png);
 background-size: contain;
 background-repeat: no-repeat;
 justify-content: center;
 text-align: center;
-margin-top: 100px;
-margin-left: 100px;
+padding-top: 300px;
+padding-left: 150px;
+margin-top: 80px;
 }
 
-#medRole{
+/* #medRole{
     height:215px;
     overflow:scroll;
     overflow-x:hidden;
-}
+} */

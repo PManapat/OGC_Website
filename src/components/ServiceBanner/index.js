@@ -5,22 +5,24 @@ import "./style.css";
 export default function () {
   return (
     <div>
-      <Card.Header as="h5">SERVICES</Card.Header>
+      <div>
+      <Card.Header as="h2">SERVICES</Card.Header>
+      </div>
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="#familyLaw">Family</Nav.Link>
+          <Nav.Link href="#familyLaw" className='text-dark'>Family</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#civilBus">Civil/Business</Nav.Link>
+          <Nav.Link href="#civilBus" className='text-dark'>Civil/Business</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#otherAreas">Other Areas</Nav.Link>
+          <Nav.Link href="#otherAreas" className='text-dark'>Other Areas</Nav.Link>
         </Nav.Item>
       </Nav>
       <Row id="blocks" className="mr-1 pb-2">
         <Col className="col" id="familyLaw">
           <Jumbotron className='bg-light'>
-            <h1 className="mb-4">Family Law & Divorce</h1>
+            <h2 className="mb-4">Family Law & Divorce</h2>
             <br />
             <h5>Equitable distribution:</h5>
             Determination and allocation of marital assets and debts. What is

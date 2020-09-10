@@ -7,7 +7,7 @@ export default function () {
     <Row id="blocks" className="mr-1 pb-2">
       <Col className="col" id="civilBus">
         <Jumbotron className='bg-light'>
-          <h1 className="mb-4">CIVIL / BUSINESS</h1>
+          <h2 className="mb-4">CIVIL / BUSINESS</h2>
           <br />
           <p>
             Mediation is used effectively in disputes regarding labor-management

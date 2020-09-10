@@ -4,7 +4,7 @@ import HomeBlockOne from "../../components/HomeBlockOne";
 import HomeBlockTwo from "../../components/HomeBlockTwo";
 import "./style.css";
 
-export default function Home() {
+export default function () {
   return (
     <div>
       <HomeBanner />

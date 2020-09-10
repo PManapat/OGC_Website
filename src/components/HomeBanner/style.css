@@ -3,7 +3,14 @@
     margin-top: 60px;
 }
 
-p, h2, h6, h5{
+p, h2, h6, h5, h1{
     text-align: center;
     align-content: center;
+}
+
+#covid{
+    padding-top: 5px;
+    background-color: rgb(223, 12, 12);
+    padding-bottom: 1px;
+    color: white; 
 }

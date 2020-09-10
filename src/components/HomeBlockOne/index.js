@@ -9,7 +9,7 @@ export default function () {
         <Jumbotron id='img'>
 </Jumbotron>
         </Col>
-        <Col className='col-8' id="mediation">
+        <Col className='col-8 mr-3 mb-4' id="mediation">
         <Jumbotron className='bg-light'>
     <h2>What is Mediation?</h2>
     <p>
