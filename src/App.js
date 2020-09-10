@@ -5,7 +5,7 @@ import Home from './pages/Home/index.js';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, BrowserRouter} from "react-router-dom";
 import './style.css';
 
 function App() {
@@ -14,12 +14,12 @@ function App() {
     <div>
       <Router>
       <Navbar /> 
-<Switch>
+<BrowserRouter basename={process.env.PUBLIC_URL}>
   <Route exact path="/home" component={Home} />
   <Route path="/about" component={About} />
   <Route path="/services" component={Services} />
   <Route path="/contact" component={Contact} />
-</Switch>
+</BrowserRouter>
 <Footer />
       </Router>
     </div>
