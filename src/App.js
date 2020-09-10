@@ -15,10 +15,10 @@ function App() {
       <Router>
       <Navbar /> 
 <BrowserRouter basename={process.env.PUBLIC_URL}>
-  <Route exact path="/home" component={Home} />
-  <Route path="/about" component={About} />
-  <Route path="/services" component={Services} />
-  <Route path="/contact" component={Contact} />
+  <Route exact path={process.env.PUBLIC_URL + '/home'} component={Home} />
+  <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
+  <Route path={process.env.PUBLIC_URL + '/services'} component={Services} />
+  <Route path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
 </BrowserRouter>
 <Footer />
       </Router>
