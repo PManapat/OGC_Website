@@ -18,17 +18,17 @@ export default function () {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/about" className="text-dark">
+          <Nav.Link href="#/about" className="text-dark">
             About
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/services" className="text-dark">
+          <Nav.Link href="#/services" className="text-dark">
             Services
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/contact" className="text-dark">
+          <Nav.Link href="#/contact" className="text-dark">
             Contact
           </Nav.Link>
         </Nav.Item>

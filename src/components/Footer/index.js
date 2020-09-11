@@ -59,7 +59,7 @@ function Footer() {
         </Modal.Footer>
       </Modal>
       
-      <Button className="link ml-2 mr-2 btn-sm btn-warning" href="/contact">
+      <Button className="link ml-2 mr-2 btn-sm btn-warning" href="#/contact">
         Contact
         </Button>
       <p className="mt-1 pt-4">

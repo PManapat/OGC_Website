@@ -10,13 +10,13 @@ export default function () {
       </div>
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="#familyLaw" className='text-dark'>Family</Nav.Link>
+          <Nav.Link onScroll="#familyLaw" className='text-dark'>Family</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#civilBus" className='text-dark'>Civil/Business</Nav.Link>
+          <Nav.Link onScroll="#civilBus" className='text-dark'>Civil/Business</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#otherAreas" className='text-dark'>Other Areas</Nav.Link>
+          <Nav.Link onScroll="#otherAreas" className='text-dark'>Other Areas</Nav.Link>
         </Nav.Item>
       </Nav>
       <Row id="blocks" className="mr-1 pb-2">
