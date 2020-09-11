@@ -5,7 +5,7 @@ import Home from "./pages/Home/index.js";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 import "./style.css";
 
 class App extends Component {
@@ -13,7 +13,9 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/" />
+        <Redirect to="/home" />
         <Route path="/about/" component={About} />
         <Route path="/services/" component={Services} />
         <Route path="/contact/" component={Contact} />
