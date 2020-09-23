@@ -5,18 +5,20 @@ import './style.css';
 export default function () {
   return (
     <Row>
-      <Col className="col-8 pt-4 mt-2">
-        <Jumbotron id="medRole" className='bg-light'>
-          <h2 className="mb-4">A Mediator's Role</h2>
-          <p>
+      <Col className="col-12 pt-4 mt-2">
+        <Jumbotron id="medRole" className='bg-transparent'>
+          <h1 className="mb-4">A Mediator's Role</h1>
+          <br/>
+          <h4>
             The Mediator provides facilitation tools to the participants in
             communication, in getting over an impasse, in being proactive
             and  in being empowered for self- determination. The Mediator,
             thus assists the parties in fashioning creative, out of the box
             solutions. The Mediator will provide information that is needed to
             further dialogue.
-          </p>
-          <p>
+          </h4>
+          <br/>
+          <h4>
             The mediator helps the parties to explore areas of possible
             compromise and to develop a solution that meets everybody's
             interests. Sometimes the Mediator may meet with the parties
@@ -27,13 +29,10 @@ export default function () {
             alternatives, exploring options for resolution, developing better
             communication skills to address the other party, role-playing from a
             trunk full of other facilitation tools available
-          </p>
+          </h4>
         </Jumbotron>
 </Col>
 <Col>
-        <Jumbotron id='njapm'>
-</Jumbotron>
-
       </Col>
     </Row>
   );

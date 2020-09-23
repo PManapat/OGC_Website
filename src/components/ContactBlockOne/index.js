@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Row, Col, Jumbotron, Nav } from "react-bootstrap";
+import { Card, Row, Col, Jumbotron} from "react-bootstrap";
 import "./style.css";
 
 export default function () {

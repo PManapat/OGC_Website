@@ -3,14 +3,21 @@
     margin-top: 60px;
 }
 
-p, h2, h6, h5, h1{
+p, h2, h6, h5, h1, h3{
     text-align: center;
     align-content: center;
 }
 
 #covid{
-    padding-top: 5px;
-    background-color: rgb(223, 12, 12);
-    padding-bottom: 1px;
+    padding-top: 20px;
     color: white; 
+}
+
+#banner{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://c1.wallpaperflare.com/preview/747/563/583/atlas-close-up-dark-dirty.jpg);
 }

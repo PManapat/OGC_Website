@@ -9,9 +9,11 @@ export default function () {
         <Jumbotron id='img'>
 </Jumbotron>
         </Col>
-        <Col className='col-8 mr-3 mb-4' id="mediation">
-        <Jumbotron className='bg-light'>
+        <Col className='col-8 mr-3' id="mediation">
+        <Jumbotron className='bg-transparent'>
     <h2>What is Mediation?</h2>
+    <br/>
+    <br/>
     <p>
       Mediation is a dispute resolution process in which an impartial third party - the Mediator - facilitates negotiations among the parties to help them reach a mutually acceptable settlement. Mediation is the most potent alternative to litigation. It is time saving, private and most cost-effective.
     </p>
@@ -23,6 +25,13 @@ export default function () {
     <p> Let us help you meet on common ground.</p>
 </Jumbotron>
         </Col>
+        <div className='col-12 pt-5 pb-5 mb-5' id='niche'>
+      <h1>Our Niche</h1>
+      <br/>
+            <h4>
+      Multicultural, multi-religious, multi-language, global understanding and resolution of issues in a non-judgmental setting.
+            </h4>
+            </div>
       </Row>
   );
 }

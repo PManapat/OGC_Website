@@ -16,14 +16,14 @@ function Footer() {
 <span className="visa mr-4">
         Visa
         </span>
-      <span className="mastercard link mr-4">
+      <span className="mastercard mr-4" id='mastercard'>
         Master Card
         </span>
       <span className="amex mr-4">
         American Express
         </span>
         <span className="paypal mr-4">
-        Paypal
+        Venmo
         </span>
         </div>
         <br />

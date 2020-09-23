@@ -1,10 +1,6 @@
 body {
-    background-image: url(https://image.freepik.com/free-vector/abstract-grey-wave-modern-background-futuristic-cool-layout-illustration_206325-64.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+   background-color: beige;
     color: rgb(44, 42, 42);
     font-family: 'Kulim Park', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     }

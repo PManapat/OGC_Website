@@ -11,9 +11,9 @@ export default function () {
         alt="Logo"
         className="d-inline-block align-top"
       />
-      <Nav className="justify-content-end pt-4 pb-4" activeKey="/home">
+      <Nav className="justify-content-end pt-5 pb-5 bg-white" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/home" className="text-dark">
+          <Nav.Link href="#/home" className="text-dark">
             Home
           </Nav.Link>
         </Nav.Item>

@@ -1,16 +1,12 @@
-#njapm{
-    background: url(https://njapm.org/wp-content/uploads/2018/09/logo.png);
-background-size: contain;
-background-repeat: no-repeat;
-justify-content: center;
-text-align: center;
-padding-top: 300px;
-padding-left: 150px;
-margin-top: 80px;
+#medRole {
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://www.worldpropertyjournal.com/news-assets/Jersey-City-NJ-waterfront-keyimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
-
-/* #medRole{
-    height:215px;
-    overflow:scroll;
-    overflow-x:hidden;
-} */

@@ -6,8 +6,10 @@ export default function () {
   return (
       <Row id="blocks">
         <Col className='col-8' id="advMediations">
-        <Jumbotron className='bg-light'>
+        <Jumbotron className='bg-transparent'>
     <h2>Advantages of Mediation</h2>
+    <br/>
+    <br/>
 <p />The result may benefit both or all sides and thus present a win/win solution.
 <p />The outcome can be tailored to meet the unique needs of the case and the parties.
 <p />It is extremely cost effective.
