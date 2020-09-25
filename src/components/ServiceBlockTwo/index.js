@@ -6,7 +6,7 @@ export default function () {
   return (
     <Row id="blocks" className="mr-1 pb-2">
       <Col className="col" id="civilBus">
-        <Jumbotron className='bg-light'>
+        <Jumbotron className='bg-transparent'>
           <h2 className="mb-4">CIVIL / BUSINESS</h2>
           <br />
           <p>

@@ -1,0 +1,10 @@
+.card {
+    background-color: rgb(26, 5, 5);
+    text-align: center;
+}
+
+#accordionBody {
+    background-color: white;
+    color: black;
+    text-align: center;
+}

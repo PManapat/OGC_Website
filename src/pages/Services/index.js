@@ -3,6 +3,7 @@ import ServiceBanner from '../../components/ServiceBanner';
 import ServiceBlockOne from '../../components/ServiceBlockOne';
 import ServiceBlockTwo from '../../components/ServiceBlockTwo';
 import ServiceBlockThree from '../../components/ServiceBlockThree';
+import ServiceBlockQA from '../../components/ServiceBlockQA';
 
 function Services() {
   return (
@@ -11,6 +12,7 @@ function Services() {
     <ServiceBlockOne />
     <ServiceBlockTwo />
     <ServiceBlockThree />
+    <ServiceBlockQA />
   </div>
   );
 }

@@ -6,7 +6,7 @@ export default function () {
   return (
     <div>
       <div>
-      <Card.Header as="h2">SERVICES</Card.Header>
+      <Card.Header className='text-warning' id='band' as="h1">SERVICES</Card.Header>
       </div>
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
@@ -21,7 +21,7 @@ export default function () {
       </Nav>
       <Row id="blocks" className="mr-1 pb-2">
         <Col className="col" id="familyLaw">
-          <Jumbotron className='bg-light'>
+          <Jumbotron className='bg-transparent'>
             <h2 className="mb-4">Family Law & Divorce</h2>
             <br />
             <h5>Equitable distribution:</h5>

@@ -6,7 +6,7 @@ export default function () {
   return (
     <Row className=" pt-4">
       <Col className="col-8">
-        <Jumbotron id="otherAreas" className='bg-light'>
+        <Jumbotron id="otherAreas" className='bg-transparent'>
           <h2 className="mb-4">Other areas include:</h2>
           <p>Partnerships (formation and/or dissolution)</p>
 <p>Professional liability claims</p>

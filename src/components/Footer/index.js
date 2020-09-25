@@ -14,16 +14,16 @@ function Footer() {
         <div className='payment mt-3'>
 <h6 className='container-fluid text-center mb-3'> All Payment Types Accepted</h6>
 <span className="visa mr-4">
-        Visa
+        <img src='images/visa.png' alt="Visa"/>
         </span>
       <span className="mastercard mr-4" id='mastercard'>
-        Master Card
+      <img src='images/mastercard.png' alt="Mastercard"/>
         </span>
       <span className="amex mr-4">
-        American Express
+      <img src='images/amex.png' alt="American Express"/>
         </span>
         <span className="paypal mr-4">
-        Venmo
+        <img src='' alt="Venmo"/>
         </span>
         </div>
         <br />
@@ -35,23 +35,7 @@ function Footer() {
         <Modal.Header closeButton>
           <Modal.Title>Disclaimer</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Disclaimer details</Modal.Body>
-        <Modal.Footer>
-          <Button variant="warning" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
-
-      <Button variant="ml-3 mr-3 btn-sm btn-warning" onClick={handleShow}>
-        Privacy Policy
-      </Button>
-
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Privacy Policy</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Privacy Policy details</Modal.Body>
+        <Modal.Body>The information provided on this website does not, and is not intended to, constitute legal advice; instead, all information, content, and materials available on this site are for general informational purposes only.</Modal.Body>
         <Modal.Footer>
           <Button variant="warning" onClick={handleClose}>
             Close
