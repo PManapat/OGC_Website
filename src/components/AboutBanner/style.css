@@ -21,11 +21,12 @@
 
 #profilePic{
   background: url(https://njapm.org/wp-content/uploads/2020/06/mitsu-profile-2020-338x500.jpg);
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   height:435px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 100px;
+  width: auto;
+  border-radius: 200px;
 }
 #band {
   background-color: rgb(26, 5, 5);

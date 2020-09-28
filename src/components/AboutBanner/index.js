@@ -6,8 +6,8 @@ export default function () {
   return (
     <div>
   <Card.Header className="text-warning" as="h1" id='band'>ABOUT</Card.Header>
-  <Row id="blocks" className=' pb-2'>
-        <Col sm={true}>
+  <Row className='pb-2'>
+        <Col sm={false} md={false} lg={false}>
         <Jumbotron id='profilePic'>
 </Jumbotron>
         </Col>
@@ -34,7 +34,7 @@ export default function () {
 <ul><b>Member, Morris County Chamber of Commerce</b></ul>
 <ul><b>Member, New Jersey Association of Women Business Owners</b></ul>   
 
-
+<br />
 <p>She is fluent in several SE Asian languages, basic German and is working on
 Japanese proficiency along with learning Korean and Chinese languages. She actively
 devotes her time for community service.</p>
