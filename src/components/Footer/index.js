@@ -30,7 +30,7 @@ function Footer() {
       <img src='images/amex.png' alt="American Express"/>
         </span>
         <span className="paypal mr-4">
-        <img src='' alt="Venmo"/>
+        <img src='images/venmo.png' alt="Venmo"/>
         </span>
         </div>
         <br />
