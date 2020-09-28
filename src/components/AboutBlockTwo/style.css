@@ -1,12 +1,12 @@
 #medRole {
     text-align: center;
     align-content: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://www.worldpropertyjournal.com/news-assets/Jersey-City-NJ-waterfront-keyimage.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://www.worldpropertyjournal.com/news-assets/Jersey-City-NJ-waterfront-keyimage.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    font-size: 30px;
+    font-size: 24px;
     padding-top: 200px;
     padding-bottom: 200px;
 }

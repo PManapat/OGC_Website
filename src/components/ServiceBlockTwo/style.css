@@ -1,5 +1,12 @@
-/* #civilBus{
-    height:300px;
-    overflow:scroll;
-    overflow-x:hidden;
-} */
+#civilBus{
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://mk0totalsecurit58731.kinstacdn.com/wp-content/uploads/2019/11/iStock-1136436788.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

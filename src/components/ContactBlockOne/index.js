@@ -1,17 +1,20 @@
 import React from "react";
-import { Card, Row, Col, Jumbotron} from "react-bootstrap";
+import { Card, Row, Col, Jumbotron } from "react-bootstrap";
 import "./style.css";
 
 export default function () {
   return (
     <div>
-      <Card.Header className='text-warning' id='band'as="h1">CONTACT</Card.Header>
-      <Row id="blocks" className="mr-1 pb-2">
-        <Col className='contact' id="contact">
-          <Jumbotron className='bg-transparent'>
-            Call: <a href="tel:877=744=3944">(877) 744-3944</a>
+      <Card.Header className="text-warning" id="band" as="h1">
+        CONTACT
+      </Card.Header><div id="contact">
+      <Row className="mr-1 pb-2">
+        <Col className="contact">
+          <h2> Get in Touch</h2>
+          <Jumbotron className="bg-transparent">
+            Call: <a className='text-white' href="tel:+18777443944">(877) 744-3944</a>
             <br /> <span>Or Email: </span>
-            <a href="mailto:mrajda@oncommonground.biz">
+            <a className='text-white' href="mailto:mrajda@oncommonground.biz">
               mrjda@oncommonground.biz
             </a>
             <br />
@@ -25,11 +28,13 @@ export default function () {
             <br />
             <br />
             <p>
-              For those suffering from financial hardship, please contact us to discuss pro bono publico. Applicable to those who may qualify,
+              For those suffering from financial hardship, please contact us to
+              discuss pro bono publico. Applicable to those who may qualify,
             </p>
           </Jumbotron>
         </Col>
       </Row>
+      </div>
     </div>
   );
 }

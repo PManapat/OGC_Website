@@ -1,5 +1,82 @@
-/* #familyLaw{
-    height:300px;
-    overflow:scroll;
-    overflow-x:hidden;
-} */
+#divorce{
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.pinimg.com/originals/c5/57/b9/c557b9a7f0283f9eddf19d15122426b5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#childCus{
+    text-align: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#childCusImg{
+    background: url(https://www.vpr.org/sites/vpr/files/styles/x_large/public/202003/child-custody-divorce-seperation-visitation-coronavirus-covid19-itakdalee-istock-20200326.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:435px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#parentTime{
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.pinimg.com/originals/c0/5d/e4/c05de431f9230e922b85a35c0806edb7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#childSup{
+    text-align: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#childSupImg{
+    background: url(https://lanelawsc.com/files/2019/07/dl-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:435px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#SpousalSup{
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://p0.piqsels.com/preview/601/227/613/new-york-united-states-375-park-ave-s-urban.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#famDiv{
+    color: black;
+}

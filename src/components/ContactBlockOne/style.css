@@ -2,5 +2,18 @@
     margin-right: 200px;
     margin-left: 200px;
     margin-top: 200px;
-    margin-bottom: 320px;
+    margin-bottom: 190px;
+}
+
+#contact{
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://mk0totalsecurit58731.kinstacdn.com/wp-content/uploads/2019/11/iStock-1136436788.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

@@ -10,9 +10,9 @@ function Services() {
   <div>
     <ServiceBanner />
     <ServiceBlockOne />
+    <ServiceBlockQA />
     <ServiceBlockTwo />
     <ServiceBlockThree />
-    <ServiceBlockQA />
   </div>
   );
 }

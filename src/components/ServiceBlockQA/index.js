@@ -4,10 +4,10 @@ import './style.css';
 
 export default function() { 
     return (
-    <div>
+    <div id='QA' className='mt-4 pt-4'>
         <h2> Q & A</h2>
 <Accordion className='pb-5 pr-5 pl-5 mr-5 ml-5 text-white'>
-  <Card>
+  <Card className='mb-1'>
     <Accordion.Toggle as={Card.Header} eventKey="0">
       Will I still need an attorney?
     </Accordion.Toggle>
@@ -17,7 +17,7 @@ export default function() {
 Even when the mediator is a lawyer, he/she cannot give either party legal advice. During divorce mediation, we may provide legal information, but we will not give you legal advice. We encourage both parties to seek legal counsel during the process whenever they think it is warranted.</Card.Body>
     </Accordion.Collapse>
   </Card>
-  <Card>
+  <Card className='mb-1'>
     <Accordion.Toggle as={Card.Header} eventKey="1">
       How long does Mediation take?
     </Accordion.Toggle>
@@ -27,7 +27,7 @@ Even when the mediator is a lawyer, he/she cannot give either party legal advice
 The number of sessions required for divorce mediation varies widely and depends on the complexity of the issues to be resolved and the parties’ willingness to settle. Unlike litigated cases, the parties have more leeway and control over the length of time within which to settle. It is much shorter than a litigated case.</Card.Body>
     </Accordion.Collapse>
   </Card>
-  <Card>
+  <Card className='mb-1'>
     <Accordion.Toggle as={Card.Header} eventKey="2">
       How does virtual (online) mediation work?
     </Accordion.Toggle>
@@ -35,7 +35,7 @@ The number of sessions required for divorce mediation varies widely and depends 
       <Card.Body id='accordionBody'>We meet over Skype or Zoom. In case of Zoom, the parties do not need to download it. They will receive a link from the mediator. They will log on from their current location. Separate virtual rooms will be available if the parties need to talk to the mediator privately regarding certain issues. All the documents will be kept in a database to which all the parties will have all time access. A status report will be emailed to the parties at the end of each session. At the conclusion, the mediator will draft the MOU which the parties will go over in the last session and make revisions or approve the same.</Card.Body>
     </Accordion.Collapse>
   </Card>
-  <Card>
+  <Card className='mb-1'>
     <Accordion.Toggle as={Card.Header} eventKey="3">
       What if we need an interim agreement. Is this possible?
     </Accordion.Toggle>
@@ -45,7 +45,7 @@ The number of sessions required for divorce mediation varies widely and depends 
 </Card.Body>
     </Accordion.Collapse>
   </Card>
-  <Card>
+  <Card className='mb-1'>
     <Accordion.Toggle as={Card.Header} eventKey="4">
       Can ALL kinds of issues be resolved in mediation?
     </Accordion.Toggle>
@@ -53,7 +53,7 @@ The number of sessions required for divorce mediation varies widely and depends 
       <Card.Body id='accordionBody'>Yes, that is the beauty of Mediation. Any issue that falls within the legal realm can be resolved in mediation and you have the power to negotiate, to barter, to create and explore options in your interest.</Card.Body>
     </Accordion.Collapse>
   </Card>
-  <Card>
+  <Card className='mb-1'>
     <Accordion.Toggle as={Card.Header} eventKey="5">
       Is full financial disclosure neccessary?
     </Accordion.Toggle>

@@ -2,16 +2,11 @@
 text-align: center;
 }
 
- /* #mediation{
-    height:400px;
-    /* overflow:scroll;
-    overflow-x:hidden; 
-}  */
 
 #niche {
     text-align: center;
     align-content: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://cdn1.epicgames.com/ue/product/Screenshot/15-1920x1080-f7af76f61ecf8e22c6251c8f734a6ae5.jpg?resize=1&w=1600);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://cdn1.epicgames.com/ue/product/Screenshot/15-1920x1080-f7af76f61ecf8e22c6251c8f734a6ae5.jpg?resize=1&w=1600);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

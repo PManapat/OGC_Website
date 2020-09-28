@@ -1,5 +1,5 @@
 import  React, { useState } from 'react';
-import { Button, Modal } from 'react-bootstrap';
+import { Button, Modal, Col, Row } from 'react-bootstrap';
 import './style.css';
 
 function Footer() {
@@ -10,6 +10,13 @@ function Footer() {
 
   return (
     <footer className="text-dark bg-white container-fluid text-center" sticky="bottom" id='footer'>
+      <Row id='footBanner' className='pt-2 pb-2'>
+      <Col><a className='text-white' href="tel:+18777443944">(877) 744-3944</a></Col>
+      <Col><a className='text-white' href="mailto:mrajda@oncommonground.biz">
+              mrjda@oncommonground.biz
+            </a></Col>
+      <Col>By Appointment</Col>
+      </Row>
       <br />
         <div className='payment mt-3'>
 <h6 className='container-fluid text-center mb-3'> All Payment Types Accepted</h6>

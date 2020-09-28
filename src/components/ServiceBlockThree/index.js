@@ -5,10 +5,10 @@ import "./style.css";
 export default function () {
   return (
     <Row className=" pt-4">
-      <Col className="col-8">
+      <Col className="col">
         <Jumbotron id="otherAreas" className='bg-transparent'>
           <h2 className="mb-4">Other areas include:</h2>
-          <p>Partnerships (formation and/or dissolution)</p>
+          <p>Partnerships (formation, dissolution)</p>
 <p>Professional liability claims</p>
 <p>Breach of contract</p>
 <p>Breach of fiduciary duties </p>
