@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function () {
   return (
-    <Row className=" pt-4">
+    <Row className="pt-4">
       <Col className="col">
         <Jumbotron id="otherAreas" className='bg-transparent'>
           <h2 className="mb-4">Other areas include:</h2>

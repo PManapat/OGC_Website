@@ -6,12 +6,12 @@ export default function () {
   return (
     <div>
   <Card.Header className="text-warning" as="h1" id='band'>ABOUT</Card.Header>
-  <Row id="blocks" className='mr-1 pb-2'>
-        <Col>
+  <Row id="blocks" className=' pb-2'>
+        <Col sm={true}>
         <Jumbotron id='profilePic'>
 </Jumbotron>
         </Col>
-        <Col className='col-8' id="bio">
+        <Col className='col-10' id="bio">
         <Jumbotron className='bg-transparent'>
     <h2 className='mb-4'>Mitsu Rajda</h2>
     <h2 className='mb-4'><b>A Passionate and Experienced Conflict Mediator</b></h2>

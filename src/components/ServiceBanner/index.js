@@ -13,7 +13,7 @@ export default function () {
       <h1 id='famDiv' className="mb-4 mt-4 pb-5 pt-5">
         FAMILY LAW
       </h1>
-      <Row id="blocks" className="mr-1 pb-2">
+      <Row id="blocks" className="pb-2">
         <Col className="col" id="divorce">
           <Jumbotron className="bg-transparent">
             <h1 className="mb-1">Divorce</h1>
@@ -30,8 +30,8 @@ export default function () {
           </Jumbotron>
         </Col>
       </Row>
-      <Row id="blocks" className="mr-1">
-        <Col className="col-6 mr-3" id="childCus">
+      <Row id="blocks">
+        <Col className="col-6" id="childCus">
           <Jumbotron className="bg-transparent">
             <h2>Child custody</h2>
             <br />
@@ -46,7 +46,7 @@ export default function () {
           <Jumbotron id="childCusImg"></Jumbotron>
         </Col>
       </Row>
-      <Row id="blocks" className="mr-1 pb-2">
+      <Row id="blocks" className="pb-2">
         <Col className="col" id="parentTime">
           <Jumbotron className="bg-transparent">
             <h2>Parenting Time</h2>
@@ -61,11 +61,11 @@ export default function () {
           </Jumbotron>
         </Col>
       </Row>
-      <Row id="blocks" className="mr-1">
+      <Row id="blocks">
         <Col className="col">
           <Jumbotron id="childSupImg"></Jumbotron>
         </Col>
-        <Col className="col-6 mr-3" id="childSup">
+        <Col className="col-6" id="childSup">
           <Jumbotron className="bg-transparent">
             <h2>Child Support</h2>
             <br />
@@ -80,7 +80,7 @@ export default function () {
           </Jumbotron>
         </Col>
       </Row>
-      <Row id="blocks" className="mr-1 pb-2">
+      <Row id="blocks" className="pb-2">
         <Col className="col" id="SpousalSup">
           <Jumbotron className="bg-transparent">
             <h2>Spousal Support</h2>

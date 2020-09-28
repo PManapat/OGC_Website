@@ -6,7 +6,7 @@ export default function () {
   return (
     <div>
       <Jumbotron id="medRole" className="bg-transparent">
-        <h1 className="m">A Mediator's Role</h1>
+        <h1>A Mediator's Role</h1>
         <br />
         <h4>
           The Mediator provides facilitation tools to the participants in

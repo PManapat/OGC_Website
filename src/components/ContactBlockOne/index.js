@@ -8,7 +8,7 @@ export default function () {
       <Card.Header className="text-warning" id="band" as="h1">
         CONTACT
       </Card.Header><div id="contact">
-      <Row className="mr-1 pb-2">
+      <Row className="pb-2">
         <Col className="contact">
           <h2> Get in Touch</h2>
           <Jumbotron className="bg-transparent">
