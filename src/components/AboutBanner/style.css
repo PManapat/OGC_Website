@@ -8,26 +8,27 @@
   text-align: center;
 }
 
-/* #profilePic {
+#profilePic {
   background: url(https://njapm.org/wp-content/uploads/2020/06/mitsu-profile-2020-338x500.jpg);
-  background-size: contain;
-  height: 600px;
-  margin-left: 40px;
+  background-size: cover;
+  height: 900px;
   background-repeat: no-repeat;
   position: center;
   margin-top: 250px;
-  margin-left: 140px;
-} */
+}
 
-#profilePic{
+/* #profilePic{
   background: url(https://njapm.org/wp-content/uploads/2020/06/mitsu-profile-2020-338x500.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: local;
   height:435px;
   margin-top: 100px;
   width: auto;
   border-radius: 200px;
-}
+} */
+
 #band {
   background-color: rgb(26, 5, 5);
 }

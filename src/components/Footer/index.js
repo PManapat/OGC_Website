@@ -12,7 +12,7 @@ function Footer() {
     <footer className="text-dark bg-white container-fluid text-center" sticky="bottom" id='footer'>
       <Row id='footBanner' className='pt-2 pb-2'>
       <Col sm><a className='text-white' href="tel:+18777443944">(877) 744-3944</a></Col>
-      <Col sm> sm=true<a className='text-white' href="mailto:mrajda@oncommonground.biz">
+      <Col sm><a className='text-white' href="mailto:mrajda@oncommonground.biz">
               mrjda@oncommonground.biz
             </a></Col>
       <Col sm>By Appointment</Col>

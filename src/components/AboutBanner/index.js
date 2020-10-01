@@ -7,11 +7,11 @@ export default function () {
     <div>
   <Card.Header className="text-warning" as="h1" id='band'>ABOUT</Card.Header>
   <Row className='pb-2'>
-        <Col sm={false} md={false} lg={false}>
-        <Jumbotron id='profilePic'>
+        <Col sm className='col-8 ml-5 pl-5'>
+        <Jumbotron fluid id='profilePic'>
 </Jumbotron>
         </Col>
-        <Col className='col-10' id="bio">
+        <Col sm className='col-8' id="bio">
         <Jumbotron className='bg-transparent'>
     <h2 className='mb-4'>Mitsu Rajda</h2>
     <h2 className='mb-4'><b>A Passionate and Experienced Conflict Mediator</b></h2>
