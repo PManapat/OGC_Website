@@ -10,7 +10,8 @@
 
 #profilePic {
   background: url(https://njapm.org/wp-content/uploads/2020/06/mitsu-profile-2020-338x500.jpg);
-  background-size: cover;
+  background-size: auto;
+  background-position: center;
   height: 900px;
   background-repeat: no-repeat;
   position: center;
