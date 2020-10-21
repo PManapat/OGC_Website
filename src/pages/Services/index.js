@@ -4,6 +4,7 @@ import ServiceBlockOne from '../../components/ServiceBlockOne';
 import ServiceBlockTwo from '../../components/ServiceBlockTwo';
 import ServiceBlockThree from '../../components/ServiceBlockThree';
 import ServiceBlockQA from '../../components/ServiceBlockQA';
+import ServiceBlockNVR from "../../components/ServiceBlockNVR";
 
 function Services() {
   return (
@@ -13,6 +14,7 @@ function Services() {
     <ServiceBlockQA />
     <ServiceBlockTwo />
     <ServiceBlockThree />
+    <ServiceBlockNVR />
   </div>
   );
 }
