@@ -3,10 +3,10 @@ import { Container, Jumbotron, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 export default function () {
-  return (<div id="civilBus" className='pt-4 pb-4'>
+  return (<div id="civilBus"> <h1 id='band' className="pt-3 pb-3">CIVIL, BUSINESS AND OTHER AREAS</h1>
+  
     <Container>
-      <h1 className='pt-4'>CIVIL, BUSINESS AND OTHER AREAS</h1>
-      <Row className="pb-2 mt-3">
+      <Row>
         <Col className="col-12">
           <Jumbotron className="bg-transparent">
             <p>
@@ -63,6 +63,7 @@ export default function () {
         </Col>
       </Row>
     </Container>
+  
     </div>
   );
 }

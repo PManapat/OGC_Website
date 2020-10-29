@@ -12,10 +12,10 @@ export default function () {
         <Col className="contact">
           <h2> Get in Touch</h2>
           <Jumbotron className="bg-transparent">
-            Call: <a className='text-white' href="tel:+18777443944">(877) 744-3944</a>
+            Call: <a className='text-white' href="tel:+18622630211">(862) 263-0211</a>
             <br /> <span>Or Email: </span>
             <a className='text-white' href="mailto:mrajda@oncommonground.biz">
-              mrjda@oncommonground.biz
+              mrajda@oncommonground.biz
             </a>
             <br />
             <br />
@@ -29,7 +29,7 @@ export default function () {
             <br />
             <p>
               For those suffering from financial hardship, please contact us to
-              discuss pro bono publico. Applicable to those who may qualify,
+              discuss pro bono in private. Applicable to those who may qualify.
             </p>
           </Jumbotron>
         </Col>

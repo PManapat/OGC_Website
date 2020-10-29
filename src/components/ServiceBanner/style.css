@@ -1,7 +1,38 @@
-#divorce{
+#blockOneBg{
     text-align: center;
     align-content: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.pinimg.com/originals/c5/57/b9/c557b9a7f0283f9eddf19d15122426b5.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.473) ), url(https://i.pinimg.com/originals/c5/57/b9/c557b9a7f0283f9eddf19d15122426b5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#blockTwoBg{
+    text-align: center;
+    align-content: center;
+    background-image: url(https://lh3.googleusercontent.com/proxy/iXQ_StlhxMSoGIAwcqoUOqVQo5a6JGyCzgWABVassszq4nbAA1nKTENdikw-b_zFYTHCkm6XZSjMZ7imE16X-vKtJPW8m_44ZZmWrPIxdwuTM3WdJlU9SuMgx1xyawOzNV90wX_mTDWP8A);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#blockThreeBg{
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#blockFourBg{
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://p0.piqsels.com/preview/601/227/613/new-york-united-states-375-park-ave-s-urban.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,10 +62,9 @@
     margin-bottom: 80px;
 }
 
-#parentTime{
+#equDis{
     text-align: center;
     align-content: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.pinimg.com/originals/c0/5d/e4/c05de431f9230e922b85a35c0806edb7.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,13 +73,39 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+#equDisImg{
+    background: url(https://www.cuinsight.com/wp-content/uploads/2019/04/bigstock-Weight-Scale-Of-Justice-Lawye-187229476.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:435px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#parentTime{
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+#parentImg{
+    background: url(https://i.pinimg.com/originals/c0/5d/e4/c05de431f9230e922b85a35c0806edb7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:435px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 #childSup{
     text-align: center;
     align-content: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: white;
     color: black;
     font-size: 30px;
     padding-top: 10px;
@@ -60,21 +116,21 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: white;
     height:435px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
-#SpousalSup{
-    text-align: center;
-    align-content: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://p0.piqsels.com/preview/601/227/613/new-york-united-states-375-park-ave-s-urban.jpg);
-    background-size: cover;
+
+#spousalSupImg{
+    background: url(https://www.tedonemortonlaw.com/images/spousal-alimony.jpg);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    color: white;
-    font-size: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: white;
+    height:435px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 #famDiv{

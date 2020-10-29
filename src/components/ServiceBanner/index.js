@@ -13,12 +13,16 @@ export default function () {
       <h1 id='famDiv' className="mb-4 mt-4 pb-5 pt-5">
         FAMILY LAW
       </h1>
-      <Row id="blocks" className="pb-2">
-        <Col className="col" id="divorce">
+      <Row> 
+        <Col className="pb-3 pt-3" id="band"><h1>Divorce</h1></Col>
+      </Row>
+      <Row id="blockOneBg">
+      <Col className="col">
+          <Jumbotron id="equDisImg" className="ml-5"></Jumbotron>
+        </Col>
+        <Col className="col-6" id="equDis">
           <Jumbotron className="bg-transparent">
-            <h1 className="mb-1">Divorce</h1>
-            <br />
-            <h2>Equitable distribution:</h2>
+            <h2>Equitable distribution</h2>
             <br />
             Determination and allocation of marital assets and debts. What is
             marital property? What goes into the pot for distribution. Whether
@@ -30,7 +34,7 @@ export default function () {
           </Jumbotron>
         </Col>
       </Row>
-      <Row id="blocks">
+      <Row id="blockTwoBg">
         <Col className="col-6" id="childCus">
           <Jumbotron className="bg-transparent">
             <h2>Child custody</h2>
@@ -43,10 +47,13 @@ export default function () {
           </Jumbotron>
         </Col>
         <Col className="col">
-          <Jumbotron id="childCusImg"></Jumbotron>
+          <Jumbotron id="childCusImg" className="mr-5"></Jumbotron>
         </Col>
       </Row>
-      <Row id="blocks" className="pb-2">
+      <Row id="blockTwoBg">
+      <Col className="col">
+          <Jumbotron id="parentImg" className="ml-5"></Jumbotron>
+        </Col>
         <Col className="col" id="parentTime">
           <Jumbotron className="bg-transparent">
             <h2>Parenting Time</h2>
@@ -61,10 +68,7 @@ export default function () {
           </Jumbotron>
         </Col>
       </Row>
-      <Row id="blocks">
-        <Col className="col">
-          <Jumbotron id="childSupImg"></Jumbotron>
-        </Col>
+      <Row id="blockThreeBg">
         <Col className="col-6" id="childSup">
           <Jumbotron className="bg-transparent">
             <h2>Child Support</h2>
@@ -79,9 +83,15 @@ export default function () {
             <br />
           </Jumbotron>
         </Col>
+        <Col className="col">
+          <Jumbotron id="childSupImg"></Jumbotron>
+        </Col>
       </Row>
-      <Row id="blocks" className="pb-2">
-        <Col className="col" id="SpousalSup">
+      <Row id="blockFourBg" className="pb-2">
+      <Col className="col">
+          <Jumbotron id="spousalSupImg" className="ml-5"></Jumbotron>
+        </Col>
+        <Col className="col">
           <Jumbotron className="bg-transparent">
             <h2>Spousal Support</h2>
             <br />

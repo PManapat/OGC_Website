@@ -6,7 +6,7 @@ export default function () {
   return (
     <div id="navbar">
       <img
-        src="images/logo.jpg"
+        src="images/logo2.png"
         id="logo"
         alt="Logo"
         className="d-inline-block align-top"

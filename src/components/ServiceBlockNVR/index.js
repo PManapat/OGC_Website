@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./style.css";
 
 export default function () {
@@ -8,8 +8,8 @@ export default function () {
       <h2 className="mt-3 mb-3 pt-3 pb-3">
         <b>NEWS, VEIWS & REVIEWS</b>
       </h2>
-      <br/>
       <Row>
+     
         <Col className="col-4" id="artlink">
           <p>
             <b>
