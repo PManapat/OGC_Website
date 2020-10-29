@@ -9,7 +9,7 @@ export default function () {
         CONTACT
       </Card.Header><div id="contact">
       <Row className="pb-2">
-        <Col sm className="contact">
+        <Col className="contact">
           <h2> Get in Touch</h2>
           <Jumbotron className="bg-transparent">
             Call: <a className='text-white' href="tel:+18622630211">(862) 263-0211</a>
