@@ -3,16 +3,16 @@ import { Nav } from "react-bootstrap";
 import "./style.css";
 
 export default function () {
-  return (<div>
-
-<img
+  return (
+    <div id="navbar">
+      
+      <Nav className="justify-content-end pt-5 pb-5 bg-white" activeKey="/home" sm>
+      <img
         src="images/logo2.png"
         id="logo"
         alt="Logo"
         className="d-inline-block align-top"
-      />
-    <div id="navbar">
-    <Nav className="justify-content-end pt-5 pb-5 bg-white" activeKey="/home" sm>
+      /> <h2>On Common Ground</h2>
         <Nav.Item>
           <Nav.Link href="#/home" className="text-dark">
             Home
@@ -34,7 +34,6 @@ export default function () {
           </Nav.Link>
         </Nav.Item>
       </Nav>
-    </div>
     </div>
   );
 }
