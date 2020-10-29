@@ -28,9 +28,9 @@ export default function () {
         <div className='col-12 pt-5 pb-5 mb-5' id='niche'>
       <h1>Our Niche</h1>
       <br/>
-            <h4>
+            <p>
       Multicultural, multi-religious, multi-language, global understanding and resolution of issues in a non-judgmental setting.
-            </h4>
+            </p>
             </div>
       </Row>
   );

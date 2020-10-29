@@ -8,15 +8,15 @@ export default function () {
       <Jumbotron id="medRole" className="bg-transparent">
         <h1>A Mediator's Role</h1>
         <br />
-        <h4>
+        <p>
           The Mediator provides facilitation tools to the participants in
           communication, in getting over an impasse, in being proactive and  in
           being empowered for self- determination. The Mediator, thus assists
           the parties in fashioning creative, out of the box solutions. The
           Mediator will provide information that is needed to further dialogue.
-        </h4>
+        </p>
         <br />
-        <h4>
+        <p>
           The mediator helps the parties to explore areas of possible compromise
           and to develop a solution that meets everybody's interests. Sometimes
           the Mediator may meet with the parties separately for a private
@@ -27,7 +27,7 @@ export default function () {
           resolution, developing better communication skills to address the
           other party, role-playing from a trunk full of other facilitation
           tools available
-        </h4>
+        </p>
       </Jumbotron>
     </div>
   );

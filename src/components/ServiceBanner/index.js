@@ -39,11 +39,11 @@ export default function () {
           <Jumbotron className="bg-transparent">
             <h2>Child custody</h2>
             <br />
-            New Jersey courts have a policy favoring shared parental
+            <p>New Jersey courts have a policy favoring shared parental
             responsibility and frequent contact between a child and both
             parents. Beyond this, courts can divide physical and
             legal custody of a child between the parents in any way that serves
-            the best interests of the child.
+            the best interests of the child.</p>
           </Jumbotron>
         </Col>
         <Col className="col">
