@@ -9,7 +9,7 @@ export default function () {
         CONTACT
       </Card.Header><div id="contact">
       <Row className="pb-2">
-        <Col className="contact">
+        <Col sm className="contact">
           <h2> Get in Touch</h2>
           <Jumbotron className="bg-transparent">
             Call: <a className='text-white' href="tel:+18622630211">(862) 263-0211</a>
@@ -18,13 +18,13 @@ export default function () {
               mrajda@oncommonground.biz
             </a>
             <br />
-            <br />
+            <br /><p>
             We serve most of the Counties in New Jersey and New York. If you or
             the other party is out of state or outside the US, you can avail of
             our innovative online ODR system. It can be done from the privacy of
             your office or your home wherever you are. Please send us an email
             indicating the same and we will contact you with further
-            information.
+            information.</p>
             <br />
             <br />
             <p>
