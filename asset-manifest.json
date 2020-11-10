@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OGC_Website/static/css/main.a3fc4149.chunk.css",
+    "main.css": "/OGC_Website/static/css/main.94e3d5fa.chunk.css",
     "main.js": "/OGC_Website/static/js/main.db6dcfe5.chunk.js",
     "main.js.map": "/OGC_Website/static/js/main.db6dcfe5.chunk.js.map",
     "runtime-main.js": "/OGC_Website/static/js/runtime-main.790c7372.js",
@@ -8,15 +8,15 @@
     "static/js/2.83114b36.chunk.js": "/OGC_Website/static/js/2.83114b36.chunk.js",
     "static/js/2.83114b36.chunk.js.map": "/OGC_Website/static/js/2.83114b36.chunk.js.map",
     "index.html": "/OGC_Website/index.html",
-    "precache-manifest.4f83aea9d1bad3d9a80840e06cbc79f3.js": "/OGC_Website/precache-manifest.4f83aea9d1bad3d9a80840e06cbc79f3.js",
+    "precache-manifest.e76f727727ad1fb9d1f406e9c6843576.js": "/OGC_Website/precache-manifest.e76f727727ad1fb9d1f406e9c6843576.js",
     "service-worker.js": "/OGC_Website/service-worker.js",
-    "static/css/main.a3fc4149.chunk.css.map": "/OGC_Website/static/css/main.a3fc4149.chunk.css.map",
+    "static/css/main.94e3d5fa.chunk.css.map": "/OGC_Website/static/css/main.94e3d5fa.chunk.css.map",
     "static/js/2.83114b36.chunk.js.LICENSE.txt": "/OGC_Website/static/js/2.83114b36.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.790c7372.js",
     "static/js/2.83114b36.chunk.js",
-    "static/css/main.a3fc4149.chunk.css",
+    "static/css/main.94e3d5fa.chunk.css",
     "static/js/main.db6dcfe5.chunk.js"
   ]
 }
