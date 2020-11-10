@@ -5,12 +5,12 @@ import "./style.css";
 export default function () {
   return (
     <div>
-      <Card.Header className="text-warning" id="band" as="h1">
+      <Card.Header className="text-warning" id="band1" as="h1">
         CONTACT
       </Card.Header><div id="contact">
       <Row className="pb-2">
-        <Col className="contact">
-          <h2> Get in Touch</h2>
+        <Col className='contact animate__animated animate__bounceInLeft'>
+          <h2 className='animate__animated animate__bounceInRight'> Get in Touch</h2>
           <Jumbotron className="bg-transparent">
             Call: <a className='text-white' href="tel:+18622630211">862 263-0211</a>
             <br /> <span>Or Email: </span>

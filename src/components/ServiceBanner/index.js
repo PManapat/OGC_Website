@@ -4,23 +4,9 @@ import "./style.css";
 
 export default function () {
   return (<div>
-        <Card.Header className="text-warning" id="band" as="h1">
+        <Card.Header className="text-warning" id="band1" as="h1">
           SERVICES
         </Card.Header>
-      <Nav id='serviceDiv' className="justify-content-center" activeKey="/home">
-    <Nav.Item>
-      <Nav.Link className='text-dark' href="/#famDiv">Family Law</Nav.Link >
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link className='text-dark' href="/#QA">Questions & Answers</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link className='text-dark' href="/#civilBus">Civil, Business & Others</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-    <Nav.Link className='text-dark' href="/services/#NVR">News, Views & Reviews</Nav.Link>
-    </Nav.Item>
-  </Nav>
       <Row> 
         <Col className="pb-3 pt-3" id="band"><h1>FAMILY LAW</h1></Col>
       </Row>

@@ -5,7 +5,7 @@ import './style.css';
 export default function () {
   return (
    <div>
-      <Card.Header className="text-warning justify-content-md-center" as="h1" id='band'>ABOUT</Card.Header>
+      <Card.Header className="text-warning justify-content-md-center" as="h1" id='band1'>ABOUT</Card.Header>
      <div className='col-12 pt-5 pb-5 mb-5' id='holistic'>
       <h1 className='animate__animated animate__bounceInRight'>Holistic Mediation</h1>
       <br/>

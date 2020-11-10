@@ -1,14 +1,14 @@
 import React from "react";
-import { Row, Col, Jumbotron } from "react-bootstrap";
+import { Row, Col, Jumbotron, Image } from "react-bootstrap";
 import './style.css';
 
 export default function () {
   return (
     <div>
   <Row className='pb-2'>
-        <Col sm className='col-12'>
-        <Jumbotron fluid id='profilePic'>
-</Jumbotron>
+        <Col sm className='col-12' xs={6} md={4}>
+        <Image src='https://njapm.org/wp-content/uploads/2020/06/mitsu-profile-2020-338x500.jpg' roundedCircle fluid className='pl-4 ml-4' id='profilePic'>
+</Image>
         </Col>
         <Col sm className='col' id="bio">
         <Jumbotron className='bg-transparent'>

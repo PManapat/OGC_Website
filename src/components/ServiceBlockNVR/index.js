@@ -1,13 +1,13 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 import "./style.css";
 
 export default function () {
   return (
-    <div id="NVR" className="pl-2 pr-2 mt-4 pt-4 pb-3">
-      <h2 className="mt-3 mb-3 pt-3 pb-3" id='center'>
-        <b>NEWS, VEIWS & REVIEWS</b>
-      </h2>
+    <div>
+     <Card.Header className="text-warning pt-3 mt-3 mb-3 pb-3" id="band" as="h1">
+          NEWS, VEIWS & REVIEWS
+        </Card.Header>
       <Row>
      
         <Col className="col-4" id="artlink">

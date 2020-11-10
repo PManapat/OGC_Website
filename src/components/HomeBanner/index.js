@@ -1,10 +1,13 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import './style.css'; 
 
 export default function (props){
     return(
-          <div>
+          <div> 
+          <Card.Header className="text-warning" id="band1" as="h1">
+  HOME
+</Card.Header>
       <div id='banner' className='bg-dark text-white'>
       <h3 className='animate__animated animate__fadeInRight'> A Holistic Approach to</h3>
       <h1 className='mt-3 animate__animated animate__fadeInLeft'>
