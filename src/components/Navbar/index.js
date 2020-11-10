@@ -6,10 +6,9 @@ export default function () {
   return (
     <div id="navbar">
       <Row>
-        <Col>
+        <Col id='siteLogo'>
           <img
             src="images/logo2.png"
-            id="logo"
             alt="OCG Logo"
             className="pl-3 pt-2 d-inline-block align-top animate__animated animate__rollIn"
           />{" "}
