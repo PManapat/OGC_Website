@@ -1,19 +1,20 @@
 import React from "react";
-import { Jumbotron, Col } from "react-bootstrap";
+import { Jumbotron, Col, Card } from "react-bootstrap";
 import './style.css';
 
 export default function () {
   return (
    <div>
+      <Card.Header className="text-warning justify-content-md-center" as="h1" id='band'>ABOUT</Card.Header>
      <div className='col-12 pt-5 pb-5 mb-5' id='holistic'>
-      <h1>Holistic Mediation</h1>
+      <h1 className='animate__animated animate__bounceInRight'>Holistic Mediation</h1>
       <br/>
             <p>
       Active and empowering approch. Mediaition is all about self-determination. We strive to empower the parties by giving them the tools to march towards selt-determined outcomes. We believe that almost all disputes can be resolved outside the court if the parties are determined to do so. <br/>
       Your determination a dn our holistic approach is bound to result in a win-win situation for all.
             </p>
             </div>
-       <Col className='col' id="whyUs">
+       <Col className='col' id="center">
         <Jumbotron className='bg-transparent'>
     <h2 className='mb-4'>Why Us</h2>
     

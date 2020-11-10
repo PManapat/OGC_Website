@@ -1,13 +1,18 @@
 .card {
-    background-color: rgb(26, 5, 5);
+    background-color: rgba(0, 0, 0, 0.815);
     text-align: center;
 }
 
 #accordionBody {
-    background-color: white;
+    background-color: rgba(214, 205, 205, 0.938);
     color: black;
     text-align: center;
 }
 #QA{
-    background-color: rgba(160, 99, 30, 0.356);
+    background-color: rgba(160, 99, 30, 0.548);
+}
+
+#center{
+    align-content: center;
+    text-align: center;
 }

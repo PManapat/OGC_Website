@@ -1,11 +1,10 @@
 import React from "react";
-import { Card, Row, Col, Jumbotron } from "react-bootstrap";
+import { Row, Col, Jumbotron } from "react-bootstrap";
 import './style.css';
 
 export default function () {
   return (
     <div>
-  <Card.Header className="text-warning justify-content-md-center" as="h1" id='band'>ABOUT</Card.Header>
   <Row className='pb-2'>
         <Col sm className='col-12'>
         <Jumbotron fluid id='profilePic'>

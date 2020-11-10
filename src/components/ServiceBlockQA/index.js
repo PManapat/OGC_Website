@@ -3,9 +3,9 @@ import { Accordion, Card } from "react-bootstrap";
 import './style.css';
 
 export default function() { 
-    return (
-    <div id='QA' className='mt-4 pt-4'>
-        <h2> Q & A</h2>
+    return (<div id='QA'>
+      <div className="pb-3 pt-3 mb-3" id="band"><h1>QUESTIONS & ANSWERS</h1></div>
+    <div>
 <Accordion className='pb-5 pr-5 pl-5 mr-5 ml-5 text-white'>
   <Card className='mb-1'>
     <Accordion.Toggle as={Card.Header} eventKey="0">
@@ -62,6 +62,7 @@ The number of sessions required for divorce mediation varies widely and depends 
     </Accordion.Collapse>
   </Card>
 </Accordion>
+</div>
 </div>
     )
 }

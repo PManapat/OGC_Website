@@ -1,20 +1,28 @@
 import React from "react";
-import { Card, Row, Col, Jumbotron } from "react-bootstrap";
+import { Nav, Card, Row, Col, Jumbotron } from "react-bootstrap";
 import "./style.css";
 
 export default function () {
-  return (
-    <div>
-      <div>
+  return (<div>
         <Card.Header className="text-warning" id="band" as="h1">
           SERVICES
         </Card.Header>
-      </div>
-      <h1 id='famDiv' className="mb-4 mt-4 pb-5 pt-5">
-        FAMILY LAW
-      </h1>
+      <Nav id='serviceDiv' className="justify-content-center" activeKey="/home">
+    <Nav.Item>
+      <Nav.Link className='text-dark' href="/#famDiv">Family Law</Nav.Link >
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link className='text-dark' href="/#QA">Questions & Answers</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link className='text-dark' href="/#civilBus">Civil, Business & Others</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+    <Nav.Link className='text-dark' href="/services/#NVR">News, Views & Reviews</Nav.Link>
+    </Nav.Item>
+  </Nav>
       <Row> 
-        <Col className="pb-3 pt-3" id="band"><h1>Divorce</h1></Col>
+        <Col className="pb-3 pt-3" id="band"><h1>FAMILY LAW</h1></Col>
       </Row>
       <Row id="blockOneBg">
       <Col className="col">
@@ -22,7 +30,7 @@ export default function () {
         </Col>
         <Col className="col-6" id="equDis">
           <Jumbotron className="bg-transparent">
-            <h2>Equitable distribution</h2>
+            <h2 className='animate__animated animate__bounceInRight'>Equitable distribution</h2>
             <br />
             Determination and allocation of marital assets and debts. What is
             marital property? What goes into the pot for distribution. Whether
@@ -37,7 +45,7 @@ export default function () {
       <Row id="blockTwoBg">
         <Col className="col-6" id="childCus">
           <Jumbotron className="bg-transparent">
-            <h2>Child custody</h2>
+            <h2 className='animate__animated animate__bounceInLeft'>Child custody</h2>
             <br />
             <p>New Jersey courts have a policy favoring shared parental
             responsibility and frequent contact between a child and both
@@ -50,13 +58,13 @@ export default function () {
           <Jumbotron id="childCusImg" className="mr-5"></Jumbotron>
         </Col>
       </Row>
-      <Row id="blockTwoBg">
+      <Row id="blockFiveBg">
       <Col className="col">
           <Jumbotron id="parentImg" className="ml-5"></Jumbotron>
         </Col>
         <Col className="col" id="parentTime">
           <Jumbotron className="bg-transparent">
-            <h2>Parenting Time</h2>
+            <h2 className='animate__animated animate__bounceInRight'>Parenting Time</h2>
             <br />
             The time the non-custodial parents spends with the child. Frequent
             contact of with the child is encouraged depending on the physical
@@ -71,7 +79,7 @@ export default function () {
       <Row id="blockThreeBg">
         <Col className="col-6" id="childSup">
           <Jumbotron className="bg-transparent">
-            <h2>Child Support</h2>
+            <h2 className='animate__animated animate__bounceInLeft'>Child Support</h2>
             <br />
             Whether they are married or not, both parents are responsible for
             supporting their children financially until the children achieve
@@ -93,7 +101,7 @@ export default function () {
         </Col>
         <Col className="col">
           <Jumbotron className="bg-transparent">
-            <h2>Spousal Support</h2>
+            <h2 className='animate__animated animate__bounceInRight'>Spousal Support</h2>
             <br />
             It is one spouse paying support to the other after a divorce.
             It&#39;s designed to help a lower-earning spouse who may have been
@@ -104,6 +112,6 @@ export default function () {
           </Jumbotron>
         </Col>
       </Row>
-    </div>
+      </div>
   );
 }

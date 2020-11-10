@@ -4,8 +4,8 @@ import "./style.css";
 
 export default function () {
   return (
-    <div id="NVR" className="pl-2 pr-2 mt-4 pt-4 mb-4 pb-4">
-      <h2 className="mt-3 mb-3 pt-3 pb-3">
+    <div id="NVR" className="pl-2 pr-2 mt-4 pt-4 pb-3">
+      <h2 className="mt-3 mb-3 pt-3 pb-3" id='center'>
         <b>NEWS, VEIWS & REVIEWS</b>
       </h2>
       <Row>

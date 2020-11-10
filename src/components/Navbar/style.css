@@ -2,12 +2,10 @@
   float: left;
   max-height: 90px;
   max-width: 90px;
-  background-color: white;
 }
 
-#navbar {
-  border-bottom: solid 1px rgba(0, 0, 0, 0.30);
-  background-color: white;
+#logoText{
+  font-family: 'Sansita Swashed', cursive;
 }
 
 @media only screen and (max-width:768px) {

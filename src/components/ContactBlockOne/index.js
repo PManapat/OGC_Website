@@ -12,7 +12,7 @@ export default function () {
         <Col className="contact">
           <h2> Get in Touch</h2>
           <Jumbotron className="bg-transparent">
-            Call: <a className='text-white' href="tel:+18622630211">(862) 263-0211</a>
+            Call: <a className='text-white' href="tel:+18622630211">862 263-0211</a>
             <br /> <span>Or Email: </span>
             <a className='text-white' href="mailto:mrajda@oncommonground.biz">
               mrajda@oncommonground.biz

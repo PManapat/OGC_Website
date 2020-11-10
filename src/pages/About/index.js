@@ -6,9 +6,9 @@ import AboutBanner from "../../components/AboutBanner";
 function About() {
   return (
     <div>
-      <AboutBanner />
       <AboutBlockOne />
       <AboutBlockTwo />
+      <AboutBanner />
     </div>
   );
 }

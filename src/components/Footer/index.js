@@ -9,9 +9,9 @@ function Footer() {
   const handleShow = () => setShow(true);
 
   return (
-    <footer className="text-dark bg-white container-fluid text-center" sticky="bottom" id='footer'>
+    <div className="text-dark bg-transparent container-fluid text-center" sticky="bottom" id='footer'>
       <Row id='footBanner' className='pt-2 pb-2'>
-      <Col sm><a className='text-white' href="tel:+18622630211">(862)263-0211</a></Col>
+      <Col sm><a className='text-white' href="tel:+18622630211">862 263 0211</a></Col>
       <Col sm><a className='text-white' href="mailto:mrajda@oncommonground.biz">
               mrajda@oncommonground.biz
             </a></Col>
@@ -57,7 +57,7 @@ function Footer() {
         On Common Ground © 2020 | All rights reserved.
         </p>
       <br />
-    </footer>
+    </div>
   );
 }
 

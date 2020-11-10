@@ -10,7 +10,7 @@ export default function () {
 </Jumbotron>
         </Col>
         <Col className='col-8' id="mediation">
-        <Jumbotron className='bg-transparent'>
+        <div className='mt-4 pt-4'>
     <h2>What is Mediation?</h2>
     <br/>
     <br/>
@@ -23,10 +23,10 @@ export default function () {
     </p>
     <br />
     <p> Let us help you meet on common ground.</p>
-</Jumbotron>
+</div>
         </Col>
         <div className='col-12 pt-5 pb-5 mb-5' id='niche'>
-      <h1>Our Niche</h1>
+      <h1 className='animate__animated animate__fadeInRight'>Our Niche</h1>
       <br/>
             <p>
       Multicultural, multi-religious, multi-language, global understanding and resolution of issues in a non-judgmental setting.

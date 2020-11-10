@@ -1,7 +1,12 @@
+
+#serviceDiv{
+background-color: rgba(255, 255, 255, 0.404);    
+}
+
 #blockOneBg{
     text-align: center;
     align-content: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.473) ), url(https://i.pinimg.com/originals/c5/57/b9/c557b9a7f0283f9eddf19d15122426b5.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.473) ), url(https://bfsg-az.com/wp-content/uploads/2016/09/building-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,31 +17,42 @@
 #blockTwoBg{
     text-align: center;
     align-content: center;
-    background-image: url(https://lh3.googleusercontent.com/proxy/iXQ_StlhxMSoGIAwcqoUOqVQo5a6JGyCzgWABVassszq4nbAA1nKTENdikw-b_zFYTHCkm6XZSjMZ7imE16X-vKtJPW8m_44ZZmWrPIxdwuTM3WdJlU9SuMgx1xyawOzNV90wX_mTDWP8A);
     background-size: cover;
     background-position: center;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-image: linear-gradient(to bottom right, rgba(88, 58, 18), rgb(255, 255, 255));
 }
 #blockThreeBg{
     text-align: center;
     align-content: center;
-    background-color: white;
-    
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: rgba(160, 99, 30, 0.356);
+
 }
 #blockFourBg{
     text-align: center;
     align-content: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://p0.piqsels.com/preview/601/227/613/new-york-united-states-375-park-ave-s-urban.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://img.freepik.com/free-photo/modern-building-office-blue-sky-background_35761-198.jpg?size=626&ext=jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    
+}
+#blockFiveBg{
+    text-align: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to top right, rgb(88, 58, 18), rgb(255, 255, 255));
 }
 #childCus{
     text-align: center;
@@ -56,6 +72,8 @@
     height:435px;
     margin-top: 80px;
     margin-bottom: 80px;
+    border: solid 1px rgb(65, 31, 9);
+    border-radius: 100px 100px;
 }
 
 #equDis{
@@ -69,13 +87,15 @@
     padding-bottom: 10px;
 }
 #equDisImg{
-    background: url(https://www.cuinsight.com/wp-content/uploads/2019/04/bigstock-Weight-Scale-Of-Justice-Lawye-187229476.jpg);
+    background: url(https://kinglawoffices.com/wp-content/uploads/2019/09/equitable-distribution.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height:435px;
     margin-top: 80px;
     margin-bottom: 80px;
+    border: solid 1px rgb(65, 31, 9);
+    border-radius: 100px 100px;
 }
 #parentTime{
     text-align: center;
@@ -85,13 +105,15 @@
     color: black;
 }
 #parentImg{
-    background: url(https://i.pinimg.com/originals/c0/5d/e4/c05de431f9230e922b85a35c0806edb7.jpg);
+    background: url(https://www.ourfamilywizard.co.uk/sites/default/files/styles/scale_width_960/public/media/image/2019-05/Blog-SupervisedVisitation.jpg?itok=hX0bEY3k);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height:435px;
     margin-top: 80px;
     margin-bottom: 80px;
+    border: solid 1px rgb(65, 31, 9);
+    border-radius: 100px 100px;
 }
 #childSup{
     text-align: center;
@@ -99,7 +121,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: rgba(107, 75, 38, 0);
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -113,6 +135,8 @@
     height:435px;
     margin-top: 80px;
     margin-bottom: 80px;
+    border: solid 1px rgb(65, 31, 9);
+    border-radius: 100px 100px;
 }
 
 #spousalSupImg{
@@ -120,12 +144,14 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: rgba(107, 75, 38, 0);
     height:435px;
     margin-top: 80px;
     margin-bottom: 80px;
+    border: solid 1px rgb(65, 31, 9);
+    border-radius: 100px 100px;
 }
 
 #famDiv{
-    color: black;
+    color: rgb(214, 178, 18);
 }
