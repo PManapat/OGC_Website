@@ -24,14 +24,14 @@ export default function () {
     <br />
     <p> Let us help you meet on common ground.</p>
 </div>
-<div className='col-12 pt-5 pb-5 mb-5' id='niche'>
+        </Col>
+        <Jumbotron className='col-12 pt-5 pb-5 mb-5' id='niche'>
       <h1 className='animate__animated animate__fadeInRight'>Our Niche</h1>
       <br/>
             <p>
       Multicultural, multi-religious, multi-language, global understanding and resolution of issues in a non-judgmental setting.
             </p>
-            </div>
-        </Col>
+            </Jumbotron>
       </Row>
   );
 }

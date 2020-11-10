@@ -6,7 +6,7 @@ export default function () {
   return (
     <div id="navbar">
       <Row>
-        <Col id='site'>
+        <Col id='siteLogo'>
           <img
             src="images/logo2.png"
             id="logo"
@@ -19,7 +19,7 @@ export default function () {
         </p>
         </Col>
       <Nav
-        className="justify-content-end pt-5 pb-5 bg-transparent"
+        className="justify-content-end pt-5 pb-5 pr-5 pl-4 bg-transparent"
         activeKey="/home"
         sm
       >
