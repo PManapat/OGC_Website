@@ -7,8 +7,16 @@
 #logoText{
   font-family: 'Sansita Swashed', cursive;
 }
-@media (max-width: 768px) {
-  #siteLogo {
-        display: none;
+
+@media only screen and (max-width:768px) {
+  .navbar-brand {
+    max-width: 100px;
+  }
+  /* below is for the demo but might help you position 
+  the hamburger menu on mobile */
+  .navbar-toggler {
+    right: 0;
+    position: absolute;
+    margin: 10px;
   }
 }
