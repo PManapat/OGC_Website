@@ -2,7 +2,7 @@ body {
    background-color: rgba(129, 97, 59, 0.726);
     color: rgb(44, 42, 42);
     font-family: 'Jacques Francois', serif;
-    font-size: 17px;
+    font-size: 18px;
     }
 
     @media (max-width: 768px) {
