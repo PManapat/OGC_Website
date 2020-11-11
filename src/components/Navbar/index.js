@@ -13,7 +13,7 @@ export default function () {
             alt="OCG Logo"
             className="pl-3 pt-2 d-inline-block align-top animate__animated animate__rollIn"
           />{" "}
-          <h2 className="ml-3 pl-3">On Common Ground</h2>
+          <h2 className="ml-3 pl-3 pt-2 mt-2">On Common Ground</h2>
           <p className="ml-3 pl-3" id="logoText">
           A holistic approach to resolving conflict
         </p>
