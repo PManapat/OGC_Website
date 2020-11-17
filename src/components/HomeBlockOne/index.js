@@ -10,7 +10,7 @@ export default function () {
 </Jumbotron>
         </Col>
         <Col className='col-7' id="mediation">
-        <div className='mt-2 pt-4 mr-3'>
+        <div className='mt-2 pt-4 mr-3 mb-2'>
     <h4>What is Mediation?</h4>
     <br/>
     <br/>
