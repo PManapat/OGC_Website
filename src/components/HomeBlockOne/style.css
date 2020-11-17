@@ -1,7 +1,3 @@
-#blocks {
-text-align: center;
-}
-
 
 #niche {
     text-align: center;
@@ -11,20 +7,21 @@ text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-
+}
+#mediation {
+    align-content: center;
+    text-align: center;
 }
 
 h1{
     color: gold;
 }
 #img{
-    background: url(https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/888/cached.offlinehbpl.hbpl.co.uk/news/ORP/boardroom_large-20191127063116978.jpg);
+    background: url(https://nysba.org/app/uploads/2020/03/MediationintheTimeofCoronavirus_675.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: fill;
     background-repeat: no-repeat;
-    height:510px;
+    height:310px;
     margin-top: 80px;
     margin-bottom: 80px;
-    border-radius: 100px 100px;
-    border: solid 1px rgb(65, 31, 9);
 }

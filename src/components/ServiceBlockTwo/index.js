@@ -3,7 +3,7 @@ import { Container, Jumbotron, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 export default function () {
-  return (<div id="civilBus"> <h1 id='band' className="pt-3 pb-3">CIVIL, BUSINESS AND OTHER AREAS</h1>
+  return (<div id="civilBus" className='pb-3'> <h3 id='civBand' className="pt-3 pb-3">CIVIL, BUSINESS AND OTHER AREAS</h3>
   
     <Container>
       <Row>
@@ -33,18 +33,18 @@ export default function () {
           </Jumbotron>
         </Col>
         <Col>
-            <h3>
+            <h4>
               <b>Real estate:</b>
-            </h3>
+            </h4>
             <p>
               residential and commercial leases, commercial property
               development, landlord-tenant conflicts, boundary disputes,
               nuisance/noise issues, easements, eminent domain.
             </p>
             <br />
-            <h3>
+            <h4>
               <b>Employment law related issues:</b>
-            </h3>
+            </h4>
             <p>
               Employment Law regulates the relationship between workers,
               managers, and owners ot ensure everyone is treated fairly and

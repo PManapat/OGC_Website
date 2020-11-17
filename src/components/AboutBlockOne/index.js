@@ -5,18 +5,18 @@ import './style.css';
 export default function () {
   return (
    <div>
-      <Card.Header className="text-warning justify-content-md-center" as="h1" id='band1'>ABOUT</Card.Header>
-     <div className='col-12 pt-5 pb-5 mb-5' id='holistic'>
-      <h1 className='animate__animated animate__bounceInRight'>Holistic Mediation</h1>
+      <Card.Header className="text-warning justify-content-md-center" as="h3" id='band1'>ABOUT</Card.Header>
+     <div className='col-12 pt-5 pb-5' id='holistic'>
+      <h4 className='animate__animated animate__bounceInRight'>Holistic Mediation</h4>
       <br/>
-            <p>
+            <p className='text-center ml-4'>
       Active and empowering approch. Mediaition is all about self-determination. We strive to empower the parties by giving them the tools to march towards selt-determined outcomes. We believe that almost all disputes can be resolved outside the court if the parties are determined to do so. <br/>
       Your determination a dn our holistic approach is bound to result in a win-win situation for all.
             </p>
             </div>
-       <Col className='col' id="center">
+       <Col id="center">
         <Jumbotron className='bg-transparent'>
-    <h2 className='mb-4'>Why Us</h2>
+    <h4 className='mb-4'>Why Us</h4>
     
     <p>
     Ideally, mediation should be considered before approaching the court. However, it can

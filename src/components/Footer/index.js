@@ -53,7 +53,7 @@ function Footer() {
       <Button className="link ml-2 mr-2 btn-sm btn-warning" href="#/contact">
         Contact
         </Button>
-      <p className="mt-1 pt-4">
+      <p className="mt-1 pt-4 text-center">
         On Common Ground © 2020 | All rights reserved.
         </p>
       <br />

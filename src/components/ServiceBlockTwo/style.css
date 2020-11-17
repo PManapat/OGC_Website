@@ -7,3 +7,8 @@
     background-repeat: no-repeat;
     color: white;
 }
+
+#civBand{
+    background-color: rgb(43, 28, 23);
+    border: solid 1px black;
+}

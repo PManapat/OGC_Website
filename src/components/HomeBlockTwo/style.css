@@ -1,11 +1,10 @@
 #img2{
     background: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_155378839_259901.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: fill;
     background-repeat: no-repeat;
-    height:510px;
+    height:310px;
     margin-top: 80px;
+    padding-right: 200px;
     margin-bottom: 80px;
-    border-radius: 100px 100px;
-    border: solid 1px rgb(65, 31, 9);
 }

@@ -11,9 +11,9 @@ function Services() {
   <div>
     <ServiceBanner />
     <ServiceBlockOne />
-    <ServiceBlockQA />
     <ServiceBlockTwo />
-    <ServiceBlockThree href='civilBus'/>
+    <ServiceBlockThree/>
+    <ServiceBlockQA />
     <ServiceBlockNVR />
   </div>
   );

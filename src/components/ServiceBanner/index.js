@@ -4,17 +4,17 @@ import "./style.css";
 
 export default function () {
   return (<div>
-        <Card.Header className="text-warning" id="band1" as="h1">
+        <Card.Header className="text-warning" id="band1" as="h3">
           SERVICES
         </Card.Header>
       <Row> 
-        <Col className="pb-3 pt-3" id="band"><h1>FAMILY LAW</h1></Col>
+        <Col className="pb-3 pt-3 text-white" id="band"><h4>FAMILY LAW</h4></Col>
       </Row>
       <Row id="blockOneBg">
       <Col className="col">
           <Jumbotron id="equDisImg" className="ml-5"></Jumbotron>
         </Col>
-        <Col className="col-6" id="equDis">
+        <Col className="col-9" id="equDis">
           <Jumbotron className="bg-transparent">
             <h2 className='animate__animated animate__bounceInRight'>Equitable distribution</h2>
             <br />
@@ -29,9 +29,9 @@ export default function () {
         </Col>
       </Row>
       <Row id="blockTwoBg">
-        <Col className="col-6" id="childCus">
+        <Col className="col-9" id="childCus">
           <Jumbotron className="bg-transparent">
-            <h2 className='animate__animated animate__bounceInLeft'>Child custody</h2>
+            <h4 className='animate__animated animate__bounceInLeft'>Child custody</h4>
             <br />
             <p>New Jersey courts have a policy favoring shared parental
             responsibility and frequent contact between a child and both
@@ -48,24 +48,25 @@ export default function () {
       <Col className="col">
           <Jumbotron id="parentImg" className="ml-5"></Jumbotron>
         </Col>
-        <Col className="col" id="parentTime">
+        <Col className="col-9" id="parentTime">
           <Jumbotron className="bg-transparent">
-            <h2 className='animate__animated animate__bounceInRight'>Parenting Time</h2>
+            <h4 className='animate__animated animate__bounceInRight'>Parenting Time</h4>
             <br />
-            The time the non-custodial parents spends with the child. Frequent
+            <p className='text-left'>
+The time the non-custodial parents spends with the child. Frequent
             contact of with the child is encouraged depending on the physical
             proximity and circumstances of the non- custodial parent. New Jersey
             courts actively encourage the parents to decide on Custody,
-            parenting time and child support by themselves.
+            parenting time and child support by themselves.</p>
             <br />
             <br />
           </Jumbotron>
         </Col>
       </Row>
       <Row id="blockThreeBg">
-        <Col className="col-6" id="childSup">
+        <Col className="col-9" id="childSup">
           <Jumbotron className="bg-transparent">
-            <h2 className='animate__animated animate__bounceInLeft'>Child Support</h2>
+            <h4 className='animate__animated animate__bounceInLeft'>Child Support</h4>
             <br />
             Whether they are married or not, both parents are responsible for
             supporting their children financially until the children achieve
@@ -78,22 +79,22 @@ export default function () {
           </Jumbotron>
         </Col>
         <Col className="col">
-          <Jumbotron id="childSupImg"></Jumbotron>
+          <Jumbotron className='mr-5 mt-5' id="childSupImg"></Jumbotron>
         </Col>
       </Row>
       <Row id="blockFourBg" className="pb-2">
       <Col className="col">
-          <Jumbotron id="spousalSupImg" className="ml-5"></Jumbotron>
+          <Jumbotron id="spousalSupImg" className="ml-5 mt-5"></Jumbotron>
         </Col>
-        <Col className="col">
+        <Col className="col-9">
           <Jumbotron className="bg-transparent">
-            <h2 className='animate__animated animate__bounceInRight'>Spousal Support</h2>
+            <h4 className='animate__animated animate__bounceInRight'>Spousal Support</h4>
             <br />
-            It is one spouse paying support to the other after a divorce.
+            <p className='text-left'>It is one spouse paying support to the other after a divorce.
             It&#39;s designed to help a lower-earning spouse who may have been
             out of the workforce, raising children or earning very little, to
             get through the divorce and regain self-sufficiency.
-            <br />
+            </p><br />
             <br />
           </Jumbotron>
         </Col>

@@ -4,9 +4,9 @@ import './style.css';
 
 export default function() { 
     return (<div id='QA'>
-      <div className="pb-3 pt-3 mb-3" id="band"><h1>QUESTIONS & ANSWERS</h1></div>
+      <div className="pb-3 pt-3 mb-3 text-white" id="band"><h3>QUESTIONS & ANSWERS</h3></div>
     <div>
-<Accordion className='pb-5 pr-5 pl-5 mr-5 ml-5 text-white'>
+<Accordion className='mb-2 pr-5 pl-5 mr-5 ml-5 text-white'>
   <Card className='mb-1'>
     <Accordion.Toggle as={Card.Header} eventKey="0">
       Will I still need an attorney?

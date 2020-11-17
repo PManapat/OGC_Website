@@ -4,13 +4,11 @@ import "./style.css";
 
 export default function () {
   return (
-    <div>
-     <Card.Header className="text-warning pt-3 mt-3 mb-3 pb-3" id="band" as="h1">
-          NEWS, VEIWS & REVIEWS
-        </Card.Header>
-      <Row>
+    <div className='text-center'>
+     <div className="pb-3 pt-3 mb-3 text-white" id="band"><h3>NEW, VEIWS & REVEIWS</h3></div>
+      <Row className='mb-2'>
      
-        <Col className="col-4" id="artlink">
+        <Col className="col-3 ml-4" id="artlink">
           <p>
             <b>
               An ER doctor loses custody of daughter due to Corona virus fears.
@@ -24,7 +22,7 @@ export default function () {
           <a id="artlink" href="https://www.msn.com/en-us/news/us/an-er-doctor-loses-custody-of-daughter-because-of-coronavirus-fears/ar-BB12zcvA"> See Article </a>
           </p>
         </Col>
-        <Col className="col-4" id="artlink">
+        <Col className="col-5 ml-4" id="artlink">
           <p>
             <b>
               Why two divorced couples decided to live under one roof during the
@@ -41,7 +39,7 @@ export default function () {
           
           <a id="artlink" href="https://abcnews.go.com/US/divorced-couples-decided-live-roof-covid-19-pandemic/story?id=69875535"> See Article </a>
           </p></Col>
-        <Col className="col-4" id="artlink">
+        <Col className="col-3 ml-4" id="artlink">
           <p>
             <b>Navigating child custody in the time of coronavirus</b>
           </p>

@@ -5,11 +5,11 @@ import "./style.css";
 export default function () {
   return (
     <Container className='mb-4 pb-4'>
-      <h3 className='mt-4 pt-4 mb-4 pb-4'>
+      <h4 className='mt-4 pt-4 mb-4 pb-4'>
         There are many other related issues that are addressed in Mediation:
-      </h3>
+      </h4>
       <Row className="mt-3">
-        <Col className="col-8" id="mediation">
+        <Col className="col-4 text-left" id="mediation">
         <p />
           Childen with disabilities
           <p />
@@ -28,11 +28,12 @@ export default function () {
           <p />
           Tax ramifications of equitable distribution, spousal support and child
           support
-          <p />
-          Dissolution of same sex relationship
           
         </Col>
-        <Col >
+        <Col />
+        <Col className="col-4 text-left">
+        <p />
+          Dissolution of same sex relationship
         <p />
           Pet related issues
           <p /> Extended family issues (step parents, step-children,

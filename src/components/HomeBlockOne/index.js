@@ -6,12 +6,12 @@ export default function () {
   return (
       <Row id="blocks">
         <Col>
-        <Jumbotron id='img'>
+        <Jumbotron className='ml-4' id='img'>
 </Jumbotron>
         </Col>
-        <Col className='col-8' id="mediation">
-        <div className='mt-4 pt-4'>
-    <h2>What is Mediation?</h2>
+        <Col className='col-7' id="mediation">
+        <div className='mt-2 pt-4 mr-3'>
+    <h4>What is Mediation?</h4>
     <br/>
     <br/>
     <p>
@@ -25,10 +25,10 @@ export default function () {
     <p> Let us help you meet on common ground.</p>
 </div>
         </Col>
-        <Jumbotron className='col-12 pt-5 pb-5 mb-5' id='niche'>
-      <h1 className='animate__animated animate__fadeInRight'>Our Niche</h1>
+        <Jumbotron className='col-12 pt-5 pb-3 mb-3' id='niche'>
+      <h3 className='animate__animated animate__fadeInRight'>Our Niche</h3>
       <br/>
-            <p>
+            <p style={{textAlign: 'center'}}>
       Multicultural, multi-religious, multi-language, global understanding and resolution of issues in a non-judgmental setting.
             </p>
             </Jumbotron>

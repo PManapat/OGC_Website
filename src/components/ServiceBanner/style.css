@@ -50,8 +50,6 @@ background-color: rgba(255, 255, 255, 0.404);
     background-size: cover;
     background-position: center;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-image: linear-gradient(to top right, rgb(88, 58, 18), rgb(255, 255, 255));
 }
 #childCus{
@@ -65,15 +63,12 @@ background-color: rgba(255, 255, 255, 0.404);
     padding-bottom: 10px;
 }
 #childCusImg{
-    background: url(https://www.vpr.org/sites/vpr/files/styles/x_large/public/202003/child-custody-divorce-seperation-visitation-coronavirus-covid19-itakdalee-istock-20200326.jpg);
+    background: url(https://bridgesdivorce.com/wp-content/uploads/2020/08/Children-Hugging-Divorce.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height:435px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    border: solid 1px rgb(65, 31, 9);
-    border-radius: 100px 100px;
+    height:235px;
+    margin-top: 20px;
 }
 
 #equDis{
@@ -87,21 +82,17 @@ background-color: rgba(255, 255, 255, 0.404);
     padding-bottom: 10px;
 }
 #equDisImg{
-    background: url(https://kinglawoffices.com/wp-content/uploads/2019/09/equitable-distribution.jpg);
+    background: url(https://www.divorcemag.com/wp-content/uploads/2020/10/online-divorce-mediation-mediator-divorcing-couple.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height:435px;
+    height:235px;
     margin-top: 80px;
-    margin-bottom: 80px;
-    border: solid 1px rgb(65, 31, 9);
-    border-radius: 100px 100px;
 }
+
 #parentTime{
     text-align: center;
     align-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
     color: black;
 }
 #parentImg{
@@ -109,12 +100,9 @@ background-color: rgba(255, 255, 255, 0.404);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height:435px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    border: solid 1px rgb(65, 31, 9);
-    border-radius: 100px 100px;
+    height:235px;
 }
+
 #childSup{
     text-align: center;
     align-content: center;
@@ -132,24 +120,16 @@ background-color: rgba(255, 255, 255, 0.404);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
-    height:435px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    border: solid 1px rgb(65, 31, 9);
-    border-radius: 100px 100px;
+    height:235px;
 }
 
 #spousalSupImg{
-    background: url(https://www.tedonemortonlaw.com/images/spousal-alimony.jpg);
+    background: url(https://brucepa.com/wp-content/uploads/2018/11/get-organized-for-divorce-1-1000x430.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(107, 75, 38, 0);
-    height:435px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    border: solid 1px rgb(65, 31, 9);
-    border-radius: 100px 100px;
+    height:235px;  
 }
 
 #famDiv{
