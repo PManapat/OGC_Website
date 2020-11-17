@@ -9,8 +9,8 @@ export default function (props){
   HOME
 </Card.Header>
       <div id='banner' className='bg-dark text-white'>
-      <h2 className='animate__animated animate__fadeInRight'> A Holistic Approach to</h2>
-      <h1 className='mt-3 animate__animated animate__fadeInLeft'>
+      <h2 className='animate__animated animate__fadeInRight text-center'> A Holistic Approach to</h2>
+      <h1 className='mt-3 animate__animated animate__fadeInLeft text-center'>
 RESOLVING CONFLICTS
       </h1>
       <p id="button" className='mb-5'>

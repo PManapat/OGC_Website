@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/OGC_Website/static/css/main.12335587.chunk.css",
-    "main.js": "/OGC_Website/static/js/main.52624aee.chunk.js",
-    "main.js.map": "/OGC_Website/static/js/main.52624aee.chunk.js.map",
+    "main.js": "/OGC_Website/static/js/main.acd4550b.chunk.js",
+    "main.js.map": "/OGC_Website/static/js/main.acd4550b.chunk.js.map",
     "runtime-main.js": "/OGC_Website/static/js/runtime-main.790c7372.js",
     "runtime-main.js.map": "/OGC_Website/static/js/runtime-main.790c7372.js.map",
     "static/js/2.83114b36.chunk.js": "/OGC_Website/static/js/2.83114b36.chunk.js",
     "static/js/2.83114b36.chunk.js.map": "/OGC_Website/static/js/2.83114b36.chunk.js.map",
     "index.html": "/OGC_Website/index.html",
-    "precache-manifest.0923802e29f0d082ff019dc4a7cef615.js": "/OGC_Website/precache-manifest.0923802e29f0d082ff019dc4a7cef615.js",
+    "precache-manifest.f40bba2d3e1300b96b3762ecd7054613.js": "/OGC_Website/precache-manifest.f40bba2d3e1300b96b3762ecd7054613.js",
     "service-worker.js": "/OGC_Website/service-worker.js",
     "static/css/main.12335587.chunk.css.map": "/OGC_Website/static/css/main.12335587.chunk.css.map",
     "static/js/2.83114b36.chunk.js.LICENSE.txt": "/OGC_Website/static/js/2.83114b36.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.790c7372.js",
     "static/js/2.83114b36.chunk.js",
     "static/css/main.12335587.chunk.css",
-    "static/js/main.52624aee.chunk.js"
+    "static/js/main.acd4550b.chunk.js"
   ]
 }
