@@ -17,9 +17,9 @@ RESOLVING CONFLICTS
         <Button variant="warning btn-lg" href='/contact'>Get in touch</Button>
       </p>
     </div>
-    <div className='pt-3 pb-3 pl-5' id='covid'>
+    <div className='pt-3 pb-3' id='covid'>
       <h4>COVID-19</h4>
-            <p>
+            <p className='text-center'>
       Due to the current unprecedented circumstances, access to the Courts and other avenues are very difficult. We are available to help you find immediate solutions to your emergent issues through ONLINE MEDIATION.
             </p>
             </div>

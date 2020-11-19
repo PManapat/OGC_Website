@@ -13,7 +13,7 @@ export default function () {
         <Col sm className='col-4' id="bio">
         <Jumbotron className='bg-transparent'>
     <h3 className='mb-3'>Mitsu Rajda</h3>
-    <h4 className='mb-3'><b>A Passionate and Experienced Conflict Mediator</b></h4>
+    <h4 className='mb-3'><b>A Passionate and Experienced Mediator</b></h4>
     <br/>
     <p>
     Mitsu Rajda is a Business, Civil and Family mediator who prides in her holistic approach to helping her

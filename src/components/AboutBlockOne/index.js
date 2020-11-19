@@ -10,8 +10,8 @@ export default function () {
       <h4 className='animate__animated animate__bounceInRight'>Holistic Mediation</h4>
       <br/>
             <p className='text-center ml-4'>
-      Active and empowering approch. Mediaition is all about self-determination. We strive to empower the parties by giving them the tools to march towards selt-determined outcomes. We believe that almost all disputes can be resolved outside the court if the parties are determined to do so. <br/>
-      Your determination a dn our holistic approach is bound to result in a win-win situation for all.
+      Active and empowering approch. Mediaition is all about self-determination. We strive to empower the parties by giving them the tools to march towards self-determined outcomes. We believe that almost all disputes can be resolved outside the court if the parties are determined to do so. <br/>
+      Your determination and our holistic approach is bound to result in a win-win situation for all.
             </p>
             </div>
        <Col id="center">

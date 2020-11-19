@@ -72,8 +72,6 @@ background-color: rgba(255, 255, 255, 0.404);
 }
 
 #equDis{
-    text-align: center;
-    align-content: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,8 +102,6 @@ background-color: rgba(255, 255, 255, 0.404);
 }
 
 #childSup{
-    text-align: center;
-    align-content: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,4 +130,11 @@ background-color: rgba(255, 255, 255, 0.404);
 
 #famDiv{
     color: rgb(214, 178, 18);
+}
+
+#servNav {
+    text-align: center;
+    background-color: rgb(107, 75, 38);
+    color: white;
+
 }

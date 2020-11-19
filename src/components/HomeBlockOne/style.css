@@ -17,9 +17,9 @@ h1{
     color: gold;
 }
 #img{
-    background: url(https://nysba.org/app/uploads/2020/03/MediationintheTimeofCoronavirus_675.jpg);
+    background: url(https://facilitationfirst.com/wp-content/uploads/2018/05/Mediation.jpg);
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     height:310px;
     margin-top: 80px;
