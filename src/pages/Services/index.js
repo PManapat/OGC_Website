@@ -10,11 +10,11 @@ function Services() {
   return (
   <div>
     <ServiceBanner />
-    <ServiceBlockOne />
-    <ServiceBlockTwo />
+    <ServiceBlockOne id='famLaw'/>
+    <ServiceBlockTwo id='civBus'/>
     <ServiceBlockThree/>
-    <ServiceBlockQA />
-    <ServiceBlockNVR />
+    <ServiceBlockQA id='QA'/>
+    <ServiceBlockNVR id='NVR'/>
   </div>
   );
 }

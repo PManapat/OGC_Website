@@ -5,7 +5,7 @@ import "./style.css";
 export default function () {
   return (
     <div className='text-center'>
-     <div className="pb-3 pt-3 mb-3 text-white" id="band"><h3>NEWS, VEIWS & REVEIWS</h3></div>
+     <div className="pb-3 pt-3 mb-3 text-white" id="band"><h3>NEWS, VIEWS & REVIEWS</h3></div>
       <Row className='mb-2'>
      
         <Col className="col-3 ml-4" id="artlink">

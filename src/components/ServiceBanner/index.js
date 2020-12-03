@@ -9,7 +9,7 @@ export default function () {
         </Card.Header>
         <Nav className="justify-content-center pt-3 pb-3" id="servNav">
     <Nav.Item>
-      <Nav className="mr-5 pr-4">FAMILY LAW</Nav>
+      <Nav className="mr-5 pr-4" >FAMILY LAW</Nav>
     </Nav.Item>
     <Nav.Item>
       <Nav className="mr-5 pr-4">CIVIL, BUSINESS & OTHER ARES</Nav>
