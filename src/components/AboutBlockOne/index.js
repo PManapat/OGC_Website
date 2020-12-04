@@ -17,7 +17,6 @@ export default function () {
        <Col id="center">
         <Jumbotron className='bg-transparent'>
     <h4 className='mb-4'>Why Us</h4>
-    
     <p>
     Ideally, mediation should be considered before approaching the court. However, it can
 be used during any stage of the trial, on the day of the trial or post trial. It is a proven
