@@ -18,7 +18,7 @@ export default function () {
       <Nav className="mr-5 pr-4">QUESTIONS & ANSWERS</Nav>
     </Nav.Item>
     <Nav.Item>
-    <Nav className="mr-5 pr-4" >NEWS, VEIWS & REVEIWS</Nav>
+    <Nav className="mr-5 pr-4" >NEWS, VIEWS & REVIEWS</Nav>
     </Nav.Item>
   </Nav>
       <Row> 
