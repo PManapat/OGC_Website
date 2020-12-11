@@ -23,7 +23,7 @@ export default function () {
         </Jumbotron>
       </Col>
       <Col className="col mr-4">
-        <Jumbotron id="serviceImg3"></Jumbotron>
+        <Jumbotron id="serviceImg3" alt="mediation" ></Jumbotron>
       </Col>
     </Row>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./style.css";
 
 export default function () {

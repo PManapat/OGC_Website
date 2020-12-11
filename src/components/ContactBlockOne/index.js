@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Form, Col, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "./style.css";
 
 export default function () {
@@ -9,7 +9,7 @@ export default function () {
      <div className='col-12 pt-5' id='contact'>
       <h4 className='animate__animated animate__bounceInRight'>Get in Touch</h4>
       <br/>
-            <p className='text-center'>
+            <div className='text-center'>
             Call: <a className='text-white text-center' href="tel:+18622630211">862 263 0211</a>
             <br /> <span className='text-center'>Or Email: </span>
             <a className='text-white text-center' href="mailto:mrajda@oncommonground.biz">
@@ -29,7 +29,7 @@ export default function () {
               For those suffering from financial hardship, please contact us to
               discuss pro bono in private. Applicable to those who may qualify.
             </p>
-            </p>
+            </div>
             {/* <div className="d-flex justify-content-around mb-4 pb-4">
             <Form action="contactForm.php" method="post">
     <Form.Group sm={12} as={Col} controlId="formGridName">

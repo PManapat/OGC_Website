@@ -21,7 +21,7 @@ export default function () {
       <Nav
         className="justify-content-end pt-5 pb-5 pr-5 pl-4 bg-transparent"
         activeKey="/home"
-        sm
+        sm="true"
       >
         <Nav.Item>
           <Nav.Link href="#/home" className="text-dark">

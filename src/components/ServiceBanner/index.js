@@ -55,12 +55,12 @@ export default function () {
           </Jumbotron>
         </Col>
         <Col className="col">
-          <Jumbotron id="childCusImg" className="mr-5"></Jumbotron>
+          <Jumbotron id="childCusImg" alt="Child custody" className="mr-5"></Jumbotron>
         </Col>
       </Row>
       <Row id="blockFiveBg">
       <Col className="col">
-          <Jumbotron id="parentImg" className="ml-5"></Jumbotron>
+          <Jumbotron id="parentImg" alt="Parenting time" className="ml-5"></Jumbotron>
         </Col>
         <Col className="col-9" id="parentTime">
           <Jumbotron className="bg-transparent">
@@ -93,12 +93,12 @@ The time the non-custodial parents spends with the child. Frequent
           </Jumbotron>
         </Col>
         <Col className="col">
-          <Jumbotron className='mr-5 mt-5' id="childSupImg"></Jumbotron>
+          <Jumbotron className='mr-5 mt-5' id="childSupImg" alt="Child support" ></Jumbotron>
         </Col>
       </Row>
       <Row id="blockFourBg" className="pb-2">
       <Col className="col">
-          <Jumbotron id="spousalSupImg" className="ml-5 mt-5"></Jumbotron>
+          <Jumbotron id="spousalSupImg" alt="Spousal support" className="ml-5 mt-5"></Jumbotron>
         </Col>
         <Col className="col-9">
           <Jumbotron className="bg-transparent">

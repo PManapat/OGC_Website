@@ -50,7 +50,7 @@ devotes her time for community service.</p>
 </Jumbotron>
         </Col>
       </Row>
-      <Row> <Col className='text-center mb-4'><img src='https://syncnet.s3.us-east-2.amazonaws.com/img/njapm/NJAPMHeaderLogo.png'></img></Col></Row>
+      <Row> <Col className='text-center mb-4'><img alt="NJAPM" src='https://syncnet.s3.us-east-2.amazonaws.com/img/njapm/NJAPMHeaderLogo.png'></img></Col></Row>
 </div>
   );
 }
